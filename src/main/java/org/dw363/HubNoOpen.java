@@ -15,13 +15,15 @@ public class HubNoOpen extends JavaPlugin implements Listener {
 
     @EventHandler
     public void onInventoryOpen(InventoryOpenEvent event) {
-        Material inventoryType = event.getInventory().getLocation().getBlock().getType();
+        if (event.getInventory().getLocation() != null) {
+            Material inventoryType = event.getInventory().getLocation().getBlock().getType();
 
-        if (inventoryType == Material.CHEST ||
-                inventoryType == Material.ENDER_CHEST ||
-                inventoryType.name().endsWith("_SHULKER_BOX") ||
-                inventoryType == Material.BARREL) {
-            event.setCancelled(true);
+            if (inventoryType == Material.CHEST ||
+                    inventoryType == Material.ENDER_CHEST ||
+                    inventoryType.name().endsWith("_SHULKER_BOX") ||
+                    inventoryType == Material.BARREL) {
+                event.setCancelled(true);
+            }
         }
     }
 }

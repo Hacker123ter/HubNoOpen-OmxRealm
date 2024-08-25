@@ -1,5 +1,5 @@
 name: HubNoOpen
-version: '1.0.0-OmxRealm'
+version: '1.0.1-OmxRealm'
 main: org.dw363.HubNoOpen
 api-version: '1.21'
 load: STARTUP
