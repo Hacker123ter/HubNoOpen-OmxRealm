@@ -1,8 +1,8 @@
 name: HubNoOpen
-version: '1.0.1-OmxRealm'
+version: '1.0.2-OmxRealm'
 main: org.dw363.HubNoOpen
 api-version: '1.21'
 load: STARTUP
 authors: [dw363]
-description: Плагин, запрещающий открывать сундуки, бочки, шалкер боксы игрокам, создано специально для сервера OmxRealm. Project The OMX
+description: Плагин, запрещающий открывать сундуки, бочки, шалкер боксы игрокам. Создано специально для сервера OmxRealm. Project The OMX
 website: https://github.com/Hacker123ter

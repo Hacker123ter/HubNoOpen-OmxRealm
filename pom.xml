@@ -6,13 +6,12 @@
 
     <groupId>org.dw363</groupId>
     <artifactId>HubNoOpen</artifactId>
-    <version>1.0.1-OmxRealm</version>
+    <version>1.0.2-OmxRealm</version>
     <packaging>jar</packaging>
 
     <name>HubNoOpen</name>
 
-    <description>Плагин, запрещающий открывать сундуки, бочки, шалкер боксы игрокам, создано специально для сервера
-        OmxRealm. Project The OMX
+    <description>Плагин, запрещающий открывать сундуки, бочки, шалкер боксы игрокам. Создано специально для сервера OmxRealm. Project The OMX
     </description>
     <properties>
         <java.version>1.8</java.version>
